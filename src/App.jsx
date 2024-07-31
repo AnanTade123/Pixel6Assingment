@@ -1,14 +1,15 @@
 /* eslint-disable no-unused-vars */
 
-import { Button } from '@material-tailwind/react'
+
 import './App.css'
+import EmployeeTable from './Compoment/EmployeeTable'
 
 function App() {
  
 
   return (
     <>
-   <Button>Hello</Button>
+   <EmployeeTable/>
     </>
   )
 }
